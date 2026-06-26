@@ -1,0 +1,18 @@
+{
+  "name": "crypto-tracker-bot",
+  "version": "1.0.0",
+  "description": "A CLI bot to track cryptocurrency prices",
+  "type": "module",
+  "bin": {
+    "crypto-tracker": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "chalk": "^5.3.0",
+    "table": "^6.8.1"
+  }
+}

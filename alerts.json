@@ -1,0 +1,10 @@
+{
+  "bitcoin": {
+    "type": "above",
+    "target": 60000
+  },
+  "ethereum": {
+    "type": "below",
+    "target": 1500
+  }
+}
